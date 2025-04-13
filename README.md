@@ -32,54 +32,54 @@ While all models exhibited similar ROC_AUC scores, the AdaBoost model achieved t
 
 Insights from Decision Tree-Based Classifiers
 
-    AdaBoost and Random Forest models rely on regression trees. These models tend to assign lower importance to One-Hot Encoded variables since decision trees weigh variables based on subsets of the data.
+AdaBoost and Random Forest models rely on regression trees. These models tend to assign lower importance to One-Hot Encoded variables since decision trees weigh variables based on subsets of the data.
 
-    In these models, the "has_VC" feature emerged as the most critical predictor.
+In these models, the "has_VC" feature emerged as the most critical predictor.
 
-    The "relationships" variable demonstrated consistent predictive importance across classifiers.
+The "relationships" variable demonstrated consistent predictive importance across classifiers.
 
-    Surprisingly, total funding in USD was not significantly influential on a company's success, challenging the assumption that high fundraising equates to higher chances of success.
+Surprisingly, total funding in USD was not significantly influential on a company's success, challenging the assumption that high fundraising equates to higher chances of success.
 
 ### Insights from Other Models
 
-    Logistic Regression and SVM identified "relationships" and "is_top500" as the two most important features.
+Logistic Regression and SVM identified "relationships" and "is_top500" as the two most important features.
 
-    Sectors like "ecommerce" and "biotech" showed higher success rates.
+Sectors like "ecommerce" and "biotech" showed higher success rates.
 
-    The presence of a VC funding round strongly correlated with success, whereas subsequent rounds had diminishing importance, with Round D being the most crucial later stage.
+The presence of a VC funding round strongly correlated with success, whereas subsequent rounds had diminishing importance, with Round D being the most crucial later stage.
 
-    Interestingly, California—a prominent state for startups—was not as significant a predictor of success as anticipated.
+Interestingly, California—a prominent state for startups—was not as significant a predictor of success as anticipated.
 
 ### Conclusion
 
 ### Key predictors of startup success include:
 
-    Relationships: A broader strategic network enhances the likelihood of success.
+Relationships: A broader strategic network enhances the likelihood of success.
 
-    has_VC: Early-stage institutional investors with extensive networks and industry expertise significantly impact success.
+has_VC: Early-stage institutional investors with extensive networks and industry expertise significantly impact success.
 
-    has_round_D: Companies reaching this stage have demonstrated sustained growth and profitability, making them less risky investments.
+has_round_D: Companies reaching this stage have demonstrated sustained growth and profitability, making them less risky investments.
 
-    is_biotech and is_ecommerce: These industries have gained substantial attention and interest from investors, reflecting their importance in predictive models.
+is_biotech and is_ecommerce: These industries have gained substantial attention and interest from investors, reflecting their importance in predictive models.
 
-Business Interpretation
+### Business Interpretation
 
-    Relationships: While the nature of these relationships remains unclear (clients or investors), the strategic network size plays a vital role in success.
+Relationships: While the nature of these relationships remains unclear (clients or investors), the strategic network size plays a vital role in success.
 
-    has_VC: The presence of initial institutional investors marks a critical milestone for startups.
+has_VC: The presence of initial institutional investors marks a critical milestone for startups.
 
-    has_round_D: Indicates continued success and sustained growth, showcasing low-risk investment opportunities.
+has_round_D: Indicates continued success and sustained growth, showcasing low-risk investment opportunities.
 
-    is_biotech and is_ecommerce: These sectors represent promising opportunities with investor excitement over the last decade.
+is_biotech and is_ecommerce: These sectors represent promising opportunities with investor excitement over the last decade.
 
 ### Next Steps & Improvements
 
-    Improve dataset quality: The current dataset appears heavily manipulated and lacks detailed variable descriptions. Accessing raw data with clear annotations would enhance analysis.
+Improve dataset quality: The current dataset appears heavily manipulated and lacks detailed variable descriptions. Accessing raw data with clear annotations would enhance analysis.
 
-    Broaden dataset scope: Sampling a more diverse startup market could yield different insights, although the current findings remain reasonable.
+Broaden dataset scope: Sampling a more diverse startup market could yield different insights, although the current findings remain reasonable.
 
-    Combine financial and dynamic data: Integrating financial data with company-related news through natural language processing has shown promising results, raising TPR from 60% to 79.8%.
+Combine financial and dynamic data: Integrating financial data with company-related news through natural language processing has shown promising results, raising TPR from 60% to 79.8%.
 
-    Explore additional data sources: VC investment questionnaires could provide further insights into predictors of startup success.
+Explore additional data sources: VC investment questionnaires could provide further insights into predictors of startup success.
 
-    Enhance feature engineering: Refining the dataset features may uncover stronger correlations and insights.
+Enhance feature engineering: Refining the dataset features may uncover stronger correlations and insights.
