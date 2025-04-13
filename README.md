@@ -54,32 +54,32 @@ Interestingly, California—a prominent state for startups—was not as signific
 
 ### Key predictors of startup success include:
 
-Relationships: A broader strategic network enhances the likelihood of success.
+* Relationships: A broader strategic network enhances the likelihood of success.
 
-has_VC: Early-stage institutional investors with extensive networks and industry expertise significantly impact success.
+* has_VC: Early-stage institutional investors with extensive networks and industry expertise significantly impact success.
 
-has_round_D: Companies reaching this stage have demonstrated sustained growth and profitability, making them less risky investments.
+* has_round_D: Companies reaching this stage have demonstrated sustained growth and profitability, making them less risky investments.
 
-is_biotech and is_ecommerce: These industries have gained substantial attention and interest from investors, reflecting their importance in predictive models.
+* is_biotech and is_ecommerce: These industries have gained substantial attention and interest from investors, reflecting their importance in predictive models.
 
 ### Business Interpretation
 
-Relationships: While the nature of these relationships remains unclear (clients or investors), the strategic network size plays a vital role in success.
+* Relationships: While the nature of these relationships remains unclear (clients or investors), the strategic network size plays a vital role in success.
 
-has_VC: The presence of initial institutional investors marks a critical milestone for startups.
+* has_VC: The presence of initial institutional investors marks a critical milestone for startups.
 
-has_round_D: Indicates continued success and sustained growth, showcasing low-risk investment opportunities.
+* has_round_D: Indicates continued success and sustained growth, showcasing low-risk investment opportunities.
 
-is_biotech and is_ecommerce: These sectors represent promising opportunities with investor excitement over the last decade.
+* is_biotech and is_ecommerce: These sectors represent promising opportunities with investor excitement over the last decade.
 
 ### Next Steps & Improvements
 
-Improve dataset quality: The current dataset appears heavily manipulated and lacks detailed variable descriptions. Accessing raw data with clear annotations would enhance analysis.
+* Improve dataset quality: The current dataset appears heavily manipulated and lacks detailed variable descriptions. Accessing raw data with clear annotations would enhance analysis.
 
-Broaden dataset scope: Sampling a more diverse startup market could yield different insights, although the current findings remain reasonable.
+* Broaden dataset scope: Sampling a more diverse startup market could yield different insights, although the current findings remain reasonable.
 
-Combine financial and dynamic data: Integrating financial data with company-related news through natural language processing has shown promising results, raising TPR from 60% to 79.8%.
+* Combine financial and dynamic data: Integrating financial data with company-related news through natural language processing has shown promising results, raising TPR from 60% to 79.8%.
 
-Explore additional data sources: VC investment questionnaires could provide further insights into predictors of startup success.
+* Explore additional data sources: VC investment questionnaires could provide further insights into predictors of startup success.
 
-Enhance feature engineering: Refining the dataset features may uncover stronger correlations and insights.
+* Enhance feature engineering: Refining the dataset features may uncover stronger correlations and insights.
